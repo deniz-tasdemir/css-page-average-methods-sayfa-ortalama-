@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+            text-align: center;
+            font-family: helvetica, sans-serif, arial;
+        }
+        
+        #container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            /*align-items:stretch; */
+            /*align-items:stretch; */
+            align-items: center;
+            /*align-items:flex-start; */
+            /*align-items:flex-end; */
+            /*align-items:baseline; */
+        }
+        
+        .box-one,
+        .box-two,
+        .box-three {
+            width: 200px;
+            border-radius: 8px;
+            margin: 15px;
+            font-size: 18px;
+            font-family: helvetica, sans-serif, arial;
+            color: #fff;
+            text-align: center;
+            padding-top: 20px;
+            letter-spacing: 3px;
+            float: left;
+        }
+        
+        .box-one {
+            background: #18a3a7;
+            height: 80px;
+        }
+        
+        .box-two {
+            background: #c30f1a;
+            height: 220px;
+        }
+        
+        .box-three {
+            background: #a4d108;
+            height: 160px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>align-items</h1>
+    <div id="container">
+        <div class="box-one">
+            İlk Kutu
+        </div>
+        <div class="box-two">
+            İkinci Kutu
+        </div>
+        <div class="box-three">
+            Üçüncü Kutu
+        </div>
+    </div>
+
+</body>
+
+</html>

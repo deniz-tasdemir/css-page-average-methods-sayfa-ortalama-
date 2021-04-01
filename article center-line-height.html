@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            margin: 20px 0 0 15px;
+            height: 50px;
+            /* yüksekliği 50px olarak veriyorum, line-height yükseklikle eşit olmalı. bazı fontlarda istisna yaşanabiliyor. deneyerek yerleştirebilirsiniz */
+            background-color: darkred;
+            padding: 20px;
+        }
+        
+        ul li {
+            line-height: 50px;
+            list-style: none;
+            display: inline-block;
+            float: left;
+            font-family: sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 7px;
+            margin-left: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <li><a href="">Anasayfa</a></li>
+            <li><a href="">Hakkımda</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">İletişim</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
